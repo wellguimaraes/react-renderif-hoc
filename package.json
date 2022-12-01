@@ -1,0 +1,27 @@
+{
+  "name": "react-renderif-hoc",
+  "version": "0.0.2",
+  "description": "React HOC for conditional rendering",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.tsx --dts",
+    "prepublishOnly": "yarn build"
+  },
+  "author": "Wellington Guimaraes<wellguimaraes@gmail.com>",
+  "repository": {
+    "url": "https://github.com/wellguimaraes/react-renderif-hoc.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "tsup": "^6.5.0",
+    "@swc/core": "^1.3.21",
+    "prettier": "^2.8.0",
+    "react": "^18.2.0",
+    "typescript": "^4.9.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
