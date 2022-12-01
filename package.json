@@ -1,6 +1,6 @@
 {
   "name": "react-renderif-hoc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React HOC for conditional rendering",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
